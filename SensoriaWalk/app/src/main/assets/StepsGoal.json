@@ -1,0 +1,104 @@
+﻿{"Steps":
+[
+    {
+        "Id": 1,
+        "Value": 1000,
+        "Text": "1,000 steps"
+    },
+    {
+        "Id": 2,
+        "Value": 2000,
+        "Text": "2,000 steps"
+    },
+    {
+        "Id": 3,
+        "Value": 3000,
+        "Text": "3,000 steps"
+    },
+    {
+        "Id": 4,
+        "Value": 4000,
+        "Text": "4,000 steps"
+    },
+    {
+        "Id": 5,
+        "Value": 5000,
+        "Text": "5,000 steps"
+    },
+    {
+        "Id": 6,
+        "Value": 6000,
+        "Text": "6,000 steps"
+    },
+    {
+        "Id": 7,
+        "Value": 7000,
+        "Text": "7,000 steps"
+    },
+    {
+        "Id": 8,
+        "Value": 8000,
+        "Text": "8,000 steps"
+    },
+    {
+        "Id": 9,
+        "Value": 9000,
+        "Text": "9,000 steps"
+    },
+    {
+        "Id": 10,
+        "Value": 10000,
+        "Text": "10,000 steps"
+    },
+    {
+        "Id": 11,
+        "Value": 11000,
+        "Text": "11,000 steps"
+    },
+    {
+        "Id": 12,
+        "Value": 12000,
+        "Text": "12,000 steps"
+    },
+    {
+        "Id": 13,
+        "Value": 13000,
+        "Text": "13,000 steps"
+    },
+    {
+        "Id": 14,
+        "Value": 14000,
+        "Text": "14,000 steps"
+    },
+    {
+        "Id": 15,
+        "Value": 15000,
+        "Text": "15,000 steps"
+    },
+    {
+        "Id": 16,
+        "Value": 16000,
+        "Text": "16,000 steps"
+    },
+    {
+        "Id": 17,
+        "Value": 17000,
+        "Text": "17,000 steps"
+    },
+    {
+        "Id": 18,
+        "Value": 18000,
+        "Text": "18,000 steps"
+    },
+    {
+        "Id": 19,
+        "Value": 19000,
+        "Text": "19,000 steps"
+    },
+    {
+        "Id": 20,
+        "Value": 20000,
+        "Text": "20,000 steps"
+    }
+    ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+
+    <include layout="@layout/initialtext"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="SIGN IN"
+        android:layout_below="@+id/initialText"
+        android:id="@+id/mainPageLogin"
+        android:layout_centerVertical="true"
+        android:background="#9acd32"
+        android:onClick="Login" />
+
+    <include layout="@layout/or"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mainPageLogin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="SIGN UP"
+        android:id="@+id/mainPageSignUp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/mainPageLogin"
+        android:layout_centerHorizontal="true"
+        android:background="#1e90ff"
+        android:onClick="SignUp" />
+</RelativeLayout>

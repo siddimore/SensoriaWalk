@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SensoriaWalk</string>
+    <string name="action_settings">Settings</string>
+    <string name="Set_up_distance">Set up your distance</string>
+    <string name="Set_up_steps">Set up Steps</string>
+    <string name="Set_up_speed">Set up </string>
+    <string name="Set_up_time">Set up time</string>
+
+    <!-- DeviceActivity -->
+    <string name="title_current_device">Current Device</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="title_paired_devices">Discovered Devices</string>
+</resources>

@@ -1,0 +1,84 @@
+﻿{"Time":
+[
+{
+"Id": 1,
+"Value": 10,
+"Text": "10 mins"
+}
+,
+{
+"Id": 2,
+"Value": 20,
+"Text": "20 mins"
+}
+,
+{
+"Id": 3,
+"Value": 30,
+"Text": "30 mins"
+},
+{
+"Id": 4,
+"Value": 40,
+"Text": "40 mins"
+}
+,
+{
+"Id": 5,
+"Value": 50,
+"Text": "50 mins"
+}
+,
+{
+"Id": 6,
+"Value": 60,
+"Text": "1 h"
+}
+,
+{
+"Id": 7,
+"Value": 90,
+"Text": "1 h 30 mins"
+}
+,
+{
+"Id": 8,
+"Value": 120,
+"Text": "2 h"
+},
+{
+"Id": 9,
+"Value": 150,
+"Text": "2 h 30 mins"
+}
+,
+{
+"Id": 10,
+"Value": 180,
+"Text": "3 h"
+}
+,
+{
+"Id": 11,
+"Value": 210,
+"Text": "3 h 30 mins"
+}
+,
+{
+"Id": 12,
+"Value": 240,
+"Text": "4 h"
+}
+,
+{
+"Id": 13,
+"Value": 270,
+"Text": "4 h 30 mins"
+},
+{
+"Id": 14,
+"Value": 300,
+"Text": "5 h"
+}
+]
+}

@@ -1,0 +1,67 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="39dp"
+    android:orientation="vertical"
+    android:background="#4E4885"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="100dp"
+        android:background="#4E4885"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="STEPS"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#4E4885"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="29dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/textView3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|top">
+        <include layout="@layout/elapsetime"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/stepLayout"
+            android:layout_below="@+id/textView3"
+            android:layout_weight="1"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray" />
+        <include layout="@layout/elapsedistance"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/stepLayout"
+            android:layout_below="@+id/textView3"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    </LinearLayout>

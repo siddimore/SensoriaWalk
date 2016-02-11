@@ -1,0 +1,249 @@
+﻿{
+  "Distance": [
+    {
+      "Id": 1,
+      "Value": 1.60934,
+      "ActivityType": "Run",
+      "UnitId": 0,
+      "Text": "1 mi"
+    },
+    {
+      "Id": 2,
+      "Value": 4.98897,
+      "ActivityType": "Run",
+      "UnitId": 0,
+      "Text": "3.1 mi"
+    },
+    {
+      "Id": 3,
+      "Value": 9.97793,
+      "ActivityType": "Run",
+      "UnitId": 0,
+      "Text": "6.2 mi"
+    },
+    {
+      "Id": 4,
+      "Value": 21.097494,
+      "ActivityType": "Run",
+      "UnitId": 0,
+      "Text": "Half Marathon"
+    },
+    {
+      "Id": 5,
+      "Value": 42.194988,
+      "ActivityType": "Run",
+      "UnitId": 0,
+      "Text": "Marathon"
+    },
+    {
+      "Id": 6,
+      "Value": 1.60934,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "1 mile"
+    },
+    {
+      "Id": 7,
+      "Value": 3.21869,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "2 miles"
+    },
+    {
+      "Id": 8,
+      "Value": 4.82803,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "3 miles"
+    },
+    {
+      "Id": 9,
+      "Value": 6.43738,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "4 miles"
+    },
+    {
+      "Id": 10,
+      "Value": 8.04672,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "5 miles"
+    },
+    {
+      "Id": 11,
+      "Value": 9.65606,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "6 miles"
+    },
+    {
+      "Id": 12,
+      "Value": 11.2654,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "7 miles"
+    },
+    {
+      "Id": 13,
+      "Value": 12.8748,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "8 miles"
+    },
+    {
+      "Id": 14,
+      "Value": 14.4841,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "9 miles"
+    },
+    {
+      "Id": 15,
+      "Value": 16.0934,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "10 miles"
+    },
+    {
+      "Id": 16,
+      "Value": 17.7028,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "11 miles"
+    },
+    {
+      "Id": 17,
+      "Value": 19.3121,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "12 miles"
+    },
+    {
+      "Id": 18,
+      "Value": 20.9215,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "13 miles"
+    },
+    {
+      "Id": 19,
+      "Value": 22.5308,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "14 miles"
+    },
+    {
+      "Id": 20,
+      "Value": 24.1402,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "15 miles"
+    },
+    {
+      "Id": 21,
+      "Value": 25.7495,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "16 miles"
+    },
+    {
+      "Id": 22,
+      "Value": 27.3588,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "17 miles"
+    },
+    {
+      "Id": 23,
+      "Value": 28.9682,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "18 miles"
+    },
+    {
+      "Id": 24,
+      "Value": 30.5775,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "19 miles"
+    },
+    {
+      "Id": 25,
+      "Value": 32.1869,
+      "ActivityType": "Walk",
+      "UnitId": 0,
+      "Text": "20 miles"
+    },
+    {
+      "Id": 26,
+      "Value": 1,
+      "ActivityType": "Run",
+      "UnitId": 1,
+      "Text": "1k"
+    },
+    {
+      "Id": 27,
+      "Value": 5,
+      "ActivityType": "Run",
+      "UnitId": 1,
+      "Text": "5k"
+    },
+    {
+      "Id": 28,
+      "Value": 10,
+      "ActivityType": "Run",
+      "UnitId": 1,
+      "Text": "10k"
+    },
+    {
+      "Id": 29,
+      "Value": 21.097494,
+      "ActivityType": "Run",
+      "UnitId": 1,
+      "Text": "Half Marathon"
+    },
+    {
+      "Id": 30,
+      "Value": 42.194988,
+      "ActivityType": "Run",
+      "UnitId": 1,
+      "Text": "Marathon"
+    },
+    {
+      "Id": 31,
+      "Value": 1,
+      "ActivityType": "Walk",
+      "UnitId": 1,
+      "Text": "1 km"
+    },
+    {
+      "Id": 32,
+      "Value": 2,
+      "ActivityType": "Walk",
+      "UnitId": 1,
+      "Text": "2 km"
+    },
+    {
+      "Id": 33,
+      "Value": 3,
+      "ActivityType": "Walk",
+      "UnitId": 1,
+      "Text": "3 km"
+    },
+    {
+      "Id": 34,
+      "Value": 4,
+      "ActivityType": "Walk",
+      "UnitId": 1,
+      "Text": "4 km"
+    },
+    {
+      "Id": 35,
+      "Value": 5,
+      "ActivityType": "Walk",
+      "UnitId": 1,
+      "Text": "5 km"
+    }
+  ]
+}

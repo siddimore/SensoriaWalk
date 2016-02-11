@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="20dp">
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            style="?android:attr/buttonBarButtonStyle"
+            android:src="@drawable/blueflag" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goals"
+            android:scaleType="fitCenter"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/imageButton1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:onClick="LaunchDashBoard">
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            style="?android:attr/buttonBarButtonStyle"
+            android:src="@drawable/dash"
+            android:onClick="LaunchDashboard" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:paddingRight="5dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/imageButton2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:onClick="SelectDevice">
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            style="?android:attr/buttonBarButtonStyle"
+            android:src="@drawable/connection"
+            android:onClick="SelectDevice" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connection"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/imageButton3"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp">
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            style="?android:attr/buttonBarButtonStyle"
+            android:src="@drawable/man42" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:scaleType="fitCenter"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/imageButton4"/>
+    </RelativeLayout>
+
+    <!--<ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_weight="1"
+        android:src="@drawable/user91" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_weight="1"
+        android:src="@drawable/user91" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_weight="1"
+        android:src="@drawable/user91" />-->
+
+</LinearLayout>
