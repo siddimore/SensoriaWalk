@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by MoreFamily on 12/25/2015.
  */
+ //Convert distance in km to miles
 public class ConvertDistance{
 
     public static ArrayList<String>  ConvertDistanceArray(ArrayList<String> distanceArray)
