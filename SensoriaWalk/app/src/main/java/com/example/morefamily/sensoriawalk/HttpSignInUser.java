@@ -64,6 +64,7 @@ public class HttpSignInUser extends HttpClass{
 
         try {
             if (null != url) {
+                //App client id and secret, remember to get it from activity for production version
                 String credentials = "635434509433220695:1b53b8abd1bb472e97d2db299dbce79f";
                 String base64EncodedCredentials = Base64.encodeToString(credentials.getBytes(), Base64.NO_WRAP);
                 System.out.println(base64EncodedCredentials);
