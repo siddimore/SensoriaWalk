@@ -46,8 +46,6 @@ public class HttpSignInUser extends HttpClass{
         mainClass = mClass;
         this.mUrlToUse = url;
         mContext = activity;
-//        mAccessToken = token;
-//        mJObject = data;
     }
 
 
@@ -101,7 +99,6 @@ public class HttpSignInUser extends HttpClass{
                 }
                 System.out.println(sb.toString());
                 result = sb.toString();
-//                mainClass.callBackMethod(result);
                 connection.disconnect();
             }
         } catch (Exception e) {
