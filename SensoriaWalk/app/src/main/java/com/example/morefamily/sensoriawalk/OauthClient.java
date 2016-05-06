@@ -13,7 +13,6 @@ import java.util.List;
 /**
  * Created by MoreFamily on 12/1/2015.
  */
-//public class OauthClient implements HttpResponseCallBack {
 
 public class OauthClient {
    //region Vars
@@ -55,9 +54,6 @@ public class OauthClient {
     public void PostSignupUser(SignUpModel model)
     {
         JSONObject login = null;
-
-        {
-            //String searchUri = String.format("{0}api/1.0/SignUp/SignUpUser", authSrvRootUrl);
             try {
                 login = new JSONObject();
                 login.put("Email", "cyanswimming@gmail.com");
@@ -74,6 +70,5 @@ public class OauthClient {
         }
             HttpPostSignupUser client = new HttpPostSignupUser(mCallback, this.authSrvRootUrl, returnResult,login);
             client.execute(authSrvRootUrl+"/api/1.0/SignUp/SignUpUser", signupToken);
-        }
     }
 }
