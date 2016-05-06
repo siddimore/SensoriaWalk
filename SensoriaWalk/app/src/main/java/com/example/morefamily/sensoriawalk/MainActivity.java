@@ -36,8 +36,7 @@ public class MainActivity extends Activity implements  HttpResponseCallBack{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+
         Button signUpButton = (Button)(findViewById(R.id.mainPageSignUp));
         Button loginButton = (Button)(findViewById(R.id.mainPageLogin));
 
@@ -135,7 +134,7 @@ public class MainActivity extends Activity implements  HttpResponseCallBack{
         startActivity(i);
     }
 
-
+   //Check if User previously logged in successfully
     private void loadFromSharedPreferences()
     {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
@@ -187,10 +186,10 @@ public class MainActivity extends Activity implements  HttpResponseCallBack{
         // get all Stats
         List<DBStatistics> list = db.getAllStats();
 
-        // delete one book
-        //db.deleteStat(list.get(0));
+        // delete one statistic
+        db.deleteStat(list.get(0));
 
         // get all books
-        //db.getAllStats();
+        db.getAllStats();
     }
 }
