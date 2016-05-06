@@ -87,23 +87,6 @@ public class SAAnklet extends SAFoundAnklet implements BluetoothAdapter.LeScanCa
         return instance;
 
     }
-//    public SAAnklet(SAAnkletInterface delegate) {
-//        // Save the event object for later use.
-//        iAnklet = delegate;
-//        callerContext = (Context) delegate;
-//
-//        handler = new Handler();
-//
-//        //requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSION_REQUEST_COARSE_LOCATION);
-//        BluetoothManager manager = (BluetoothManager) callerContext.getSystemService(Context.BLUETOOTH_SERVICE);
-//        mBluetoothAdapter = manager.getAdapter();
-//
-//        if (mBluetoothAdapter == null || !mBluetoothAdapter.isEnabled()) {
-//            //Bluetooth is disabled
-//            iAnklet.didError("No LE Support.");
-//            return;
-//        }
-//    }
 
     public void init(SAAnkletInterface delegate) {
         // Save the event object for later use.
@@ -372,21 +355,11 @@ public class SAAnklet extends SAFoundAnklet implements BluetoothAdapter.LeScanCa
 
             Log.d(TAG, "setCharacteristicNotification: UUID: " + uuidCharacteristic.toString());
 
-            // This is specific to Heart Rate Measurement.
-            //if (UUID_HEART_RATE_MEASUREMENT.equals(characteristic.getUuid())) {
-            //BluetoothGattDescriptor descriptor = characteristic.getDescriptor(UUID.fromString(SampleGattAttributes.CLIENT_CHARACTERISTIC_CONFIG));
-
             List<BluetoothGattDescriptor> bluetoothGattDescriptors = characteristic.getDescriptors();
 
-//            if(bluetoothGattDescriptors == null || bluetoothGattDescriptors.size() == 0) {
-//                return;
-//            }
-//
-//            //BluetoothGattDescriptor descriptor = bluetoothGattDescriptors.get(0);
             BluetoothGattDescriptor descriptor = bluetoothGattDescriptors.get(1);
             descriptor.setValue(enableNotification);
             mConnectedGatt.writeDescriptor(descriptor);
-            //}
         }
 
 
