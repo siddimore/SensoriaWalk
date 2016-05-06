@@ -32,16 +32,13 @@ import java.util.HashMap;
         mContext = pContext;
     }
 
-//   public  ArrayList<HashMap<String, String>> convertJSONArrayToList() {
-
     public  ArrayList<String> convertJSONArrayToList() {
 
-//       ArrayList<HashMap<String, String>> formList = null;
        ArrayList<String> formList = null;
        try {
            JSONObject obj = new JSONObject(loadJSONFromAsset());
            JSONArray m_jArry = obj.getJSONArray(mArrayName);
-           //formList = new ArrayList<HashMap<String, String>>();
+          
            formList = new ArrayList<String>();
            HashMap<String, String> m_li;
 
@@ -52,11 +49,6 @@ import java.util.HashMap;
 
                //Add your values in your `ArrayList` as below:
                formList.add(value);
-               //m_li = new HashMap<String, String>();
-               //m_li.put("Value", value);
-               //m_li.put("Text", text);
-
-               //formList.add(m_li);
            }
        } catch (JSONException e) {
            e.printStackTrace();
