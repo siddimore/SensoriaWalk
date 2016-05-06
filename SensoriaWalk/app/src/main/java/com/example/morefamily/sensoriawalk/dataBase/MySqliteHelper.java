@@ -112,7 +112,7 @@ public class MySqliteHelper extends SQLiteOpenHelper {
         if (cursor != null)
             cursor.moveToFirst();
 
-        // 4. build book object
+        // 4. build object
         DBStatistics sessionStat = new DBStatistics();
         sessionStat.setId(Integer.parseInt(cursor.getString(0)));
         sessionStat.setmStartTime(cursor.getString(1));
@@ -123,7 +123,7 @@ public class MySqliteHelper extends SQLiteOpenHelper {
 
         Log.d("getStat(" + id + ")", sessionStat.toString());
 
-        // 5. return book
+        // 5. return stat
         return sessionStat;
     }
 
